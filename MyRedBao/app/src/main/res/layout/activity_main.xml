@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="redbao.yang.com.myredbao.MainActivity"
+    android:weightSum="1">
+
+
+    <Button
+        android:id="@+id/bt_main"
+        android:layout_width="match_parent"
+        android:layout_height="66dp"
+        android:text="请打开无障碍"
+         />
+    <Button
+        android:id="@+id/bt2_main"
+        android:layout_width="match_parent"
+        android:layout_height="66dp"
+        android:text="请打开通知"
+        />
+
+</LinearLayout>
